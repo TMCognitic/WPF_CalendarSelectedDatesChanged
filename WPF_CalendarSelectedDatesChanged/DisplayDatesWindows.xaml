@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="DisplayDatesWindows" Height="450" Width="800" DataContext="{StaticResource Main}">
     <Grid>
-        <ListBox ItemsSource="{Binding Dates}" />
+        <DataGrid ItemsSource="{Binding MyDates}" />
     </Grid>
 </Window>

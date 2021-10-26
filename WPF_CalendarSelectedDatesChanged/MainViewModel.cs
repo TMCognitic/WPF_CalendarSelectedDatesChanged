@@ -21,7 +21,7 @@ namespace WPF_CalendarSelectedDatesChanged
         private ObservableCollection<DateTime> _dates;
         private string _passwd;
 
-        public ObservableCollection<DateTime> Dates 
+        public ObservableCollection<DateTime> MyDates 
         { 
             get
             {
@@ -53,11 +53,11 @@ namespace WPF_CalendarSelectedDatesChanged
 
         private void OnDateChanged(IEnumerable<DateTime> dates)
         {
-            Dates.Clear();
+            MyDates.Clear();
 
-            foreach(DateTime dateTime in Dates)
+            foreach(DateTime dateTime in MyDates)
             {
-                Application.Current.Dispatcher.Invoke(() => Dates.Add(dateTime));                
+                Application.Current.Dispatcher.Invoke(() => MyDates.Add(dateTime));                
             }
         }
     }
