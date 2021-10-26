@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_CalendarSelectedDatesChanged", "WPF_CalendarSelectedDatesChanged\WPF_CalendarSelectedDatesChanged.csproj", "{02DB809F-3716-4E65-8120-14FFBA26B5F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02DB809F-3716-4E65-8120-14FFBA26B5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DB809F-3716-4E65-8120-14FFBA26B5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DB809F-3716-4E65-8120-14FFBA26B5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DB809F-3716-4E65-8120-14FFBA26B5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C079B37-2CA6-4BA2-9287-6900CCA08C34}
+	EndGlobalSection
+EndGlobal

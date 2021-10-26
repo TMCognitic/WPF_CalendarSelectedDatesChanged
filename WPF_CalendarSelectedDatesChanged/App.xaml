@@ -1,0 +1,9 @@
+﻿<Application x:Class="WPF_CalendarSelectedDatesChanged.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_CalendarSelectedDatesChanged"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <local:MainViewModel x:Key="Main" />
+    </Application.Resources>
+</Application>
